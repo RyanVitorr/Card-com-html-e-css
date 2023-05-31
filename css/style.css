@@ -100,3 +100,22 @@ body {
     border: none;
     color: purple;
 }
+
+@media only screen and (max-width: 950) {
+    .card.card1.card2 {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .content {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .card {
+        width: 350px;   
+    }
+}
