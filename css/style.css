@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@300;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 400px;
+    margin: 50px;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 300px;
+}
+
+.card3 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 250px;
+    margin: 50px;
+}
+
+.mediaCard {
+    background: url(https://onlineseries.com.br/wp-content/uploads/2023/02/Sailor-Moon-anime.jpg) center/cover;
+    height: 300px;
+    width: 100%;
+}
+
+.mediaCard2 {
+    background: url(https://onlineseries.com.br/wp-content/uploads/2023/02/Sailor-Moon-anime.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.mediaCard3 {
+    background: url(https://onlineseries.com.br/wp-content/uploads/2023/02/Sailor-Moon-anime.jpg) center/cover;
+    height: 150px;
+    width: 100%;
+}
+
+.title {
+    color: #2b3d59;
+}
+
+.secondText {
+    color: #828fa1;
+}
+
+.bottomText {
+    color: #445b73;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.topCard2 {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.bottomCard2 {
+    padding: 15px;
+}
+
+.topCard3 {
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.bottomCard3 {
+    padding: 10px;
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: purple;
+}
